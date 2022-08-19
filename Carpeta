@@ -1,0 +1,12 @@
+create table Ciclista
+(Id_ciclista varchar(20),
+Nombre varchar(20),
+fecha_de_nacimiento date,
+nacionalidad varchar (20),
+altura varchar (20),
+peso varchar (20),
+equipo varchar (20),
+participaciones  varchar (20),
+fecha_de_inicio  varchar (20),
+fecha_de_fin  varchar (20),
+primary key(Id_ciclista))
