@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_horizontal"
+        android:text="Hola Mundo!"
+        android:textColor="#FFBC1C1C"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="154dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#8F7F7F"
+        android:text="Android"
+        android:textColor="#FFBC1C1C"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/ic_launcher_foreground"
+        app:iconPadding="8dp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="149dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#8F7F7F"
+        android:text="Guardar"
+        android:textColor="#FFBC1C1C"
+        app:cornerRadius="20dp"
+        app:icon="@android:drawable/ic_menu_save"
+        app:iconPadding="8dp"
+        tools:ignore="DuplicateIds"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="221dp"
+        android:layout_height="40dp"
+        android:background="#60220E"
+        android:gravity="center_horizontal"
+        android:text="Recuerda siempre guardar tu proceso!"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="143dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#8F7F7F"
+        android:text="Cerrar"
+        android:textColor="#FFBC1C1C"
+        app:cornerRadius="20dp"
+        app:icon="?attr/actionModeCloseDrawable"
+        app:iconPadding="8dp"
+        tools:ignore="DuplicateIds"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="410dp"
+        android:layout_height="15dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center_horizontal"
+        android:text="Gracias por utilizar nuestra app"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="686dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
